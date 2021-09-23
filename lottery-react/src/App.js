@@ -65,7 +65,9 @@ class App extends Component {
                     There are currently <b>{this.state.players.length}</b> people entered,<br/><br/>
                     competing to win <b>{web3.utils.fromWei(this.state.balance, 'ether')}</b> ether!
                 </p>
+
                 <hr/>
+
                 <form
                     onSubmit={this.onSubmit}
                 >

@@ -9,4 +9,6 @@ npm run start
 npm install --save web3@1.0.0-beta.26
 # Only for this project:
 npm install web3@1.3.5
+# start app
+npm run start
 ```

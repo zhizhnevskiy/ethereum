@@ -1,2 +1,3 @@
 # Project exclude paths
 /testContract01/node_modules/
+/kickstart/node_modules/

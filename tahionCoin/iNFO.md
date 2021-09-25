@@ -13,6 +13,9 @@ node deploy.js
 
 # Add react with next
 npm install --save next react react-dom
+# Add css library Semantic
+npm install --save semantic-ui-react
+npm install --save semantic-ui-css
 # Changes in package.json  
   "scripts": {
     "test": "mocha",
@@ -22,10 +25,23 @@ npm install --save next react react-dom
 npm run dev
 ```
 
-import Web3 from "web3";
+Instead of an unnamed default export:
+import React from "react";
+export default (props) => {
+...
+};
 
-window.ethereum.request({ method: "eth_requestAccounts" });
+You can refactor to give your component a name:
+import React from "react";
+const Layout = (props) => {
+...
+};
+export default Layout;
 
-const web3 = new Web3(window.ethereum);
-
-export default web3;
+This will come up a few times throughout 
+the rest of the course and can be handled similarly.
+import React from "react";
+const someComponent = () => {
+...
+};
+export default someComponent;

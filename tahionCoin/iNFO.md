@@ -20,6 +20,6 @@ npm install --save semantic-ui-react semantic-ui-css
     "test": "mocha",
     "dev": "next dev"
   },
-# Run project with NextJS (kickstart folder)
+# Run project with NextJS (tahionCoin folder)
 npm run dev
 ```

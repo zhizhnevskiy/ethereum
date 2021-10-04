@@ -21,6 +21,7 @@ npm install next-routes --legacy-peer-deps
 # start test (kickstart folder)
 npm run test
 # deploy contract in Rinkeby (ethereum folder)
+node compile.js
 node deploy.js  
 # Run project with NextJS (tahionCoin folder)
 npm run dev

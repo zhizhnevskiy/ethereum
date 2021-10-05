@@ -15,7 +15,11 @@ const Layout = (props) => {
             </Head>
             <Header/>
             {props.children}
-            <h5 style={{textAlign: 'center', opacity: '0.3'}}>
+            <h5 style={{
+                textAlign: 'center',
+                opacity: '0.3',
+                marginTop: '160px',
+            }}>
                 © 2021 TAHION SYSTEMS. All rights reserved.
             </h5>
         </Container>

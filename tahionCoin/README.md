@@ -16,7 +16,7 @@ npm install next-routes --legacy-peer-deps
 # Changes in package.json  
   "scripts": {
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "node server.js"
   },
 # start test (kickstart folder)
 npm run test
